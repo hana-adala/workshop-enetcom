@@ -9,11 +9,28 @@ import UIKit
 
 class PlaceDetailViewController: UIViewController {
 
+    
     @IBOutlet weak var titleLabel: UILabel!
     
+    @IBOutlet weak var locationLabel: UILabel!
+    
+    @IBOutlet weak var imagePlace: UIImageView!
+    @IBOutlet weak var textDescription: UITextView!
+    var place : PlaceModel?
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.titleLabel.text = place?.title
+        self.locationLabel.text = place?.categorie
+        self.textDescription.text = place?.distance
+        self.imagePlace.image =  UIImage(named: place?.image ?? "")
 
+        
+        
+        
+        
+        
+        
+        
         // Do any additional setup after loading the view.
     }
     
