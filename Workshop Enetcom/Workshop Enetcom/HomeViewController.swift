@@ -34,6 +34,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.placeTitleLabel.text = "Places (\(self.placesList.count))"
         
         self.placeTableView.delegate = self
         self.placeTableView.dataSource = self

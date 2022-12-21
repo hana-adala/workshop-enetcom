@@ -17,6 +17,7 @@
 		07CD766429520378006AF081 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD766229520378006AF081 /* PlaceTableViewCell.swift */; };
 		07CD766529520378006AF081 /* PlaceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07CD766329520378006AF081 /* PlaceTableViewCell.xib */; };
 		07CD766829521516006AF081 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD766729521516006AF081 /* PlaceModel.swift */; };
+		07F83C4C29531FA100F270D1 /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F83C4B29531FA100F270D1 /* PlaceDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		07CD766229520378006AF081 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
 		07CD766329520378006AF081 /* PlaceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceTableViewCell.xib; sourceTree = "<group>"; };
 		07CD766729521516006AF081 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		07F83C4B29531FA100F270D1 /* PlaceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				076970D12951DFD100CB2312 /* LaunchScreen.storyboard */,
 				076970D42951DFD100CB2312 /* Info.plist */,
 				076970CC2951DFCF00CB2312 /* Workshop_Enetcom.xcdatamodeld */,
+				07F83C4B29531FA100F270D1 /* PlaceDetailViewController.swift */,
 			);
 			path = "Workshop Enetcom";
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			files = (
 				076970CE2951DFCF00CB2312 /* Workshop_Enetcom.xcdatamodeld in Sources */,
 				07CD766829521516006AF081 /* PlaceModel.swift in Sources */,
+				07F83C4C29531FA100F270D1 /* PlaceDetailViewController.swift in Sources */,
 				076970C42951DFCF00CB2312 /* AppDelegate.swift in Sources */,
 				076970C62951DFCF00CB2312 /* SceneDelegate.swift in Sources */,
 				076970DB2951E9C100CB2312 /* HomeViewController.swift in Sources */,
